@@ -28,7 +28,7 @@ class Home extends Component {
           <link rel="stylesheet" href="../../static/styles/styles.css" />
           <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,600,700" rel="stylesheet" />
           <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.12/semantic.min.css"></link>
-          <meta name="viewport" content="width=device-width, initial-scale=1" />
+          <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
             <style>{`
             body {
               background-color: #1C1D21
