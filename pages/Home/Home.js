@@ -28,40 +28,40 @@ class Home extends Component {
           <link rel="stylesheet" href="../../static/styles/styles.css" />
           <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,600,700" rel="stylesheet" />
           <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.12/semantic.min.css"></link>
-
-          <style>{`
+          <meta name="viewport" content="width=device-width, initial-scale=1" />
+            <style>{`
             body {
               background-color: #1C1D21
             }
           `}</style>
         </Head>
-        
-        <HeaderPage />
 
-        <div className='Root-Component'>
-          <Container>
-            <Header>
-              <Header.Content as = 'h1'>
-                Buenvenida
+          <HeaderPage />
+
+          <div className='Root-Component'>
+            <Container>
+              <Header>
+                <Header.Content as='h1'>
+                  Buenvenida
               </Header.Content>
-              <Header.Subheader>
-                <h3>Hi, I'm Tifo</h3>
-              </Header.Subheader>
-              <Header.Subheader>
-                <h3>a React-Native Developer</h3>
-              </Header.Subheader>
-              <Header.Subheader>
-                <h3>an Entity that turning caffeinees into a code</h3>
-              </Header.Subheader>
-            </Header>
-          </Container>
-        </div>
+                <Header.Subheader>
+                  <h3>Hi, I'm Tifo</h3>
+                </Header.Subheader>
+                <Header.Subheader>
+                  <h3>a React-Native Developer</h3>
+                </Header.Subheader>
+                <Header.Subheader>
+                  <h3>an Entity that turning caffeinees into a code</h3>
+                </Header.Subheader>
+              </Header>
+            </Container>
+          </div>
 
       </div>
 
-    )
-  }
-}
-
-export default Home
-
+        )
+      }
+    }
+    
+    export default Home
+    

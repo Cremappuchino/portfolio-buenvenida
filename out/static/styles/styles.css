@@ -1,0 +1,43 @@
+* {
+  font-family: "Open Sans", serif;
+}
+
+.Root-Component {
+  text-align: center;
+  box-sizing: border-box;
+  margin: 0px;
+  padding-top: 11em;
+  padding-bottom: 5em;
+  vertical-align: baseline
+}
+
+.Root-Component h1{
+  font-size: 4em;
+  color: #92CDCF;
+  font-family: "Open Sans";
+  font-weight: 200;
+  outline-width: 0ch
+}
+
+.Root-Component h3{
+  font-size: 1.5em;
+  font-family: "Open Sans";
+  font-weight: 100;
+  color: #EEEFF7;
+}
+
+@media only screen and (max-width : 600px){
+  .Root-Component{
+    padding-top: 7em;
+    padding-bottom: 2em;
+  }
+
+  .Root-Component h1{
+    font-size: 40px;
+  }
+
+  .Root-Component h3{
+    font-size: 25px;
+  }
+}
+
