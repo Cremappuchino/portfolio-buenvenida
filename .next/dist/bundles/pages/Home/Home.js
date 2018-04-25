@@ -223,6 +223,7 @@ var Home_Home = function (_Component) {
           external__react__default.a.createElement('link', { rel: 'stylesheet', href: '../../static/styles/styles.css' }),
           external__react__default.a.createElement('link', { href: 'https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,600,700', rel: 'stylesheet' }),
           external__react__default.a.createElement('link', { rel: 'stylesheet', href: '//cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.12/semantic.min.css' }),
+          external__react__default.a.createElement('meta', { name: 'viewport', content: 'width=device-width, initial-scale=1, user-scalable=no' }),
           external__react__default.a.createElement(
             'style',
             null,
